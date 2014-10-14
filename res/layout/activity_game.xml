@@ -1,0 +1,397 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+ <TextView 
+    android:id="@+id/name1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Hello Captain "
+    android:text="Hello Captain "
+     />   
+
+<TextView 
+    android:id="@+id/score"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Your Score Is : "
+    android:text="Your Score Is : "
+     />
+
+<GridLayout 
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:columnCount="7"
+    android:orientation="horizontal"
+    android:rowCount="7"
+    android:background="@drawable/battleship"
+    tools:context="com.example.thebattleship.GameActivity"
+    
+    tools:ignore="MergeRootFrame" >
+		   
+    
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit1"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit2"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit3"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit4"
+        android:layout_column="3"
+        android:layout_row="0"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit5"
+        android:layout_column="4"
+        android:layout_row="0"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit6"
+        android:layout_column="5"
+        android:layout_row="0"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit7"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit8"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit9"
+        android:layout_column="2"
+        android:layout_row="1"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit10"
+        android:layout_column="3"
+        android:layout_row="1"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit11"
+        android:layout_column="4"
+        android:layout_row="1"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit12"
+        android:layout_column="5"
+        android:layout_row="1"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit13"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit14"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit15"
+        android:layout_column="2"
+        android:layout_row="2"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit16"
+        android:layout_column="3"
+        android:layout_row="2"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit17"
+        android:layout_column="4"
+        android:layout_row="2"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit18"
+        android:layout_column="5"
+        android:layout_row="2"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit19"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit20"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit21"
+        android:layout_column="2"
+        android:layout_row="3"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit22"
+        android:layout_column="3"
+        android:layout_row="3"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit23"
+        android:layout_column="4"
+        android:layout_row="3"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit24"
+        android:layout_column="5"
+        android:layout_row="3"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit25"
+        android:layout_column="0"
+        android:layout_row="4"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit26"
+        android:layout_column="1"
+        android:layout_row="4"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit27"
+        android:layout_column="2"
+        android:layout_row="4"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit28"
+        android:layout_column="3"
+        android:layout_row="4"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit29"
+        android:layout_column="4"
+        android:layout_row="4"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit30"
+        android:layout_column="5"
+        android:layout_row="4"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit31"
+        android:layout_column="0"
+        android:layout_row="5"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+   <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit32"
+        android:layout_column="1"
+        android:layout_row="5"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit33"
+        android:layout_column="2"
+        android:layout_row="5"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit34"
+        android:layout_column="3"
+        android:layout_row="5"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit35"
+        android:layout_column="4"
+        android:layout_row="5"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+
+   <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/edit36"
+        android:layout_column="5"
+        android:layout_row="5"
+        android:background="@drawable/layout_border"
+        android:textSize="16sp" />
+   
+  
+   
+
+   <!-- SHIPS -->
+   
+       <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/ship1"
+        android:layout_marginTop="30sp"
+        android:layout_column="0"
+        android:layout_row="6"
+        android:background="@drawable/layout_ships"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/ship2"
+        android:layout_marginTop="30sp"
+        android:layout_column="1"
+        android:layout_row="6"
+        android:background="@drawable/layout_ships"
+        android:textSize="16sp" />
+
+   <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/ship3"
+        android:layout_marginTop="30sp"
+        android:layout_column="2"
+        android:layout_row="6"
+        android:background="@drawable/layout_ships"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/ship4"
+        android:layout_marginTop="30sp"
+        android:layout_column="3"
+        android:layout_row="6"
+        android:background="@drawable/layout_ships"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:contentDescription="@string/no_image"
+        android:id="@+id/ship5"
+        android:layout_marginTop="30sp"
+        android:layout_column="4"
+        android:layout_row="6"
+        android:background="@drawable/layout_ships"
+        android:textSize="16sp" />  
+     
+    <!-- Blocks -->
+    <!-- 
+    <ImageView
+        android:id="@+id/block1"
+        android:layout_column="5"
+        android:layout_marginTop="30sp"
+        android:layout_row="6"
+        android:background="@drawable/layout_block"
+        android:contentDescription="@string/X"
+        android:textSize="16sp" />
+        
+    <ImageView
+        android:contentDescription="@string/X"
+        android:id="@+id/block2"
+        android:layout_marginTop="30sp"
+        android:layout_column="6"
+        android:layout_row="6"
+        android:background="@drawable/layout_ships"
+        android:textSize="16sp" /> 
+     -->
+</GridLayout>
+
+</LinearLayout>

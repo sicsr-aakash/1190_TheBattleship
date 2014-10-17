@@ -1,7 +1,7 @@
 1190_TheBattleship
 ==================
 
-Name : The Battleship-L'Attaque
+Name : The Battleship - L'Attaque
 
 College / Institute Name : Symbiosis Institute of Computer Studies and Research
 
